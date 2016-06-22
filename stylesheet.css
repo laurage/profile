@@ -1,16 +1,33 @@
 body {
-  background-color: #EDEDED;
-  width: 600;
-  margin: 0 auto;
-  text-align: center;
   color : #918F8C;
+  background-color: #EDEDED;
+  text-align: center;
   font-size: 0.9em;
 }
 
+#content {
+  width: 600px;
+  margin: 0 auto;
+
+}
 
 h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
   color : #17493A;
+}
+
+button {
+  background-color: #C61420;
+  color: white;
+  border-radius: 10px;
+  border-color: #C61420;
+  margin: 8;
+  padding: 10;
+}
+
+button:hover {
+  color: white;
+  background: #C61414;
 }
 
 p, a {
@@ -31,6 +48,7 @@ a:hover{
   border-radius: 5px;
   padding: 15 50 15 50;
   margin: 30 auto 30 auto;
+  box-shadow: 2 1 0 0;
 }
 
 #profilepic {
