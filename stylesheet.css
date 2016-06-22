@@ -1,0 +1,66 @@
+body {
+  background-color: #EDEDED;
+  width: 600;
+  margin: 0 auto;
+  text-align: center;
+  color : #918F8C;
+  font-size: 0.9em;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  color : #17493A;
+}
+
+p, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a{
+  color: #CECECE;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #17493A;
+}
+
+.box {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15 50 15 50;
+  margin: 30 auto 30 auto;
+}
+
+#profilepic {
+ border-radius: 150px;
+ border: solid #17493A 4px;
+}
+
+#projects{
+  text-align: left;
+}
+
+#projects p, h4{
+  padding-left: 30;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding-top: 10;
+  padding-bottom: 5;
+}
+
+li{
+  padding: 30;
+}
+
+#under_footer li{
+  display: inline;
+}
+
+
+#link_incidence {
+  color : #17493A;
+}
