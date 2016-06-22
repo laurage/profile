@@ -21,8 +21,8 @@ button {
   color: white;
   border-radius: 10px;
   border-color: #C61420;
-  margin: 8;
-  padding: 10;
+  margin: 8px;
+  padding: 10px;
 }
 
 button:hover {
@@ -46,9 +46,9 @@ a:hover{
 .box {
   background-color: white;
   border-radius: 5px;
-  padding: 15 50 15 50;
-  margin: 30 auto 30 auto;
-  box-shadow: 2 1 0 0;
+  padding: 15px 50px 15px 50px;
+  margin: 30px auto 30px auto;
+  box-shadow: 2px 1px 0px 0px;
 }
 
 #profilepic {
@@ -61,17 +61,17 @@ a:hover{
 }
 
 #projects p, h4{
-  padding-left: 30;
+  padding-left: 30px;
 }
 
 .list-inline li {
   display: inline-block;
-  padding-top: 10;
-  padding-bottom: 5;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 li{
-  padding: 30;
+  padding: 30px;
 }
 
 #under_footer li{
