@@ -5,10 +5,27 @@ body {
   font-size: 0.9em;
 }
 
-#content {
+#content-page {
   width: 600px;
   margin: 0 auto;
+  /*margin-left: 300px;*/
+}
 
+#sidebar {
+  position: fixed;
+  width: 60px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #373942;
+}
+
+#sidebar li{
+  text-align: center;
+}
+
+#sidebar a:hover{
+  color: #C61414;
 }
 
 h1, h2, h3, h4 {
@@ -64,6 +81,10 @@ a:hover{
   padding-left: 30px;
 }
 
+.list-inline{
+  padding-left: 0px; /*nécessaire car liste ajoute automatiquement un padding*/
+}
+
 .list-inline li {
   display: inline-block;
   padding-top: 10px;
@@ -73,6 +94,7 @@ a:hover{
 li{
   padding: 30px;
 }
+
 
 #under_footer li{
   display: inline;
